@@ -138,6 +138,7 @@ export default function Contact(props: ContactProps) {
               <form
                 onSubmit={handleSubmit}
                 className="space-y-6"
+                data-editable="form" 
                 data-form-id="6912923f631c8ed6a63b7d14"
               >
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
